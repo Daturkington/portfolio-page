@@ -1,1 +1,45 @@
+body {
+  color: white;
+  font-family: Helvetica;
+  background-color: #292929;
 
+}
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-right: 240px;
+  padding-bottom: 40px;
+  padding-left: 240px;
+
+}
+
+.nav {
+  margin-top: 220px;
+  padding-bottom: 16px;
+  border-bottom: solid 4px white;
+}
+
+a {
+  text-decoration: none;
+  color: #A5A39F;
+  margin: 40px;
+  font-size: 20px;
+}
+
+.content-project {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-project {
+  width: 320px;
+  height: 500px;
+  text-align: center;
+  font-size: 14px;
+  border: solid 1px grey;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
