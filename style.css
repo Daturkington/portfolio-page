@@ -29,8 +29,37 @@ a {
   font-size: 20px;
 }
 
+/*skills*/
+
+#skills {
+  background-color: white;
+  height: 640px;
+  z-index: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-card {
+  color: #292929;
+  text-align: center;
+  box-shadow: 0px 2px 78px -20px rgba(87,82,87,0.30);
+  border-radius: 12px;
+  color: #292929;
+  margin: 40px;
+  height: 460px;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+
+/*projects*/
+
 #content-project {
-  background: white;
   color: black;
   display: flex;
   justify-content: space-around;
@@ -53,6 +82,7 @@ a {
 }
 
 .card-project img:hover {
+  display: none;
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
   transition: 0.3s;
 }
@@ -115,7 +145,4 @@ a {
 .footer .fa-heart {
   color: #D23333;
 }
-
-
-
 
